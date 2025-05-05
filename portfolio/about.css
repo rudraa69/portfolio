@@ -1,0 +1,56 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    color: #f0f0f0;
+    line-height: 1.8;
+    padding: 40px 20px;
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: #ffffff;
+    margin-bottom: 40px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Paragraphs */
+p {
+    max-width: 900px;
+    margin: 20px auto;
+    font-size: 1.1rem;
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 15px 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    color: #f8f8f8;
+}
+
+/* Highlighted strong text */
+p strong {
+    color: #ffda77;
+}
+
+/* Image */
+img {
+    display: block;
+    max-width: 90%;
+    height: auto;
+    margin: 30px auto;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.03);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.6);
+}
